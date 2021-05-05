@@ -15,3 +15,11 @@
     padding:10px 20px;
     border-radius:20px;
 }
+
+@mixin badge-theme($badge-bg-color,$badge-color){
+    display: inline-block;
+    background-color:$badge-bg-color;
+    padding:10px 10px;
+    color:$badge-color;
+    border-radius:5px;
+}
