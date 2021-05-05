@@ -9,3 +9,9 @@
         }
     }
 }
+
+@mixin button-theme($btn-color){
+    background-color:$btn-color;
+    padding:10px 20px;
+    border-radius:20px;
+}
