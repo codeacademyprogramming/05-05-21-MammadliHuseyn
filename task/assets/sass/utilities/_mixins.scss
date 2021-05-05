@@ -1,0 +1,13 @@
+@import "../layout/grid";
+
+@mixin gridSystem{
+    @each $key,$value in $breakpoints {
+        @media only screen and (min-width: #{$value}) {
+            @for $i from 1 through $columns {
+                .col-#{$key}-#{$i}{
+                    width: calc(100%/12 * #{$i});
+                }
+            }
+        }
+    }
+}
