@@ -1,0 +1,7 @@
+.badge-deal{
+    @include badge-theme($badge-deal-bg-color, $badge-deal-color);
+}
+
+.badge-sale{
+    @include badge-theme($badge-sale-bg-color, $badge-sale-color);
+}
