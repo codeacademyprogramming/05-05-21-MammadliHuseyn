@@ -1,0 +1,17 @@
+$columns:12;
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px
+);
+
+.row{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.container{
+  padding:0 10%;
+}

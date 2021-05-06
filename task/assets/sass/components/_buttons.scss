@@ -1,0 +1,28 @@
+.btn{
+    display:inline-block;
+    text-align: center;
+    cursor:pointer;
+    white-space: nowrap;
+    vertical-align: middle;
+    border:none;
+}
+
+/*Buttons with theme*/
+.btn-primary {
+    @include button-theme($btn-primary-color);
+}
+
+.btn-orange {
+    @include button-theme($btn-orange-color);
+}
+
+.btn-blue {
+    @include button-theme($btn-blue-color);
+}
+
+.btn-red {
+    @include button-theme($btn-red-color);
+}
+/*Buttons with theme*/
+
+
