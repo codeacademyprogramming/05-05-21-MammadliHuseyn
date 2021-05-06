@@ -1,0 +1,18 @@
+#departments{
+    .btn-departments{
+        padding:20px;
+    }
+    
+    .btn{
+        color:$primary-color;
+        font-weight: 700;
+        font-size:15px;
+        border-radius:4px;
+        padding:10px 10%;
+        background-color:transparent;
+        border:1px solid $border-color;
+        img{
+            padding-right: 20%;
+        }
+    }
+}

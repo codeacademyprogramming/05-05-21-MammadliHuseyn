@@ -35,7 +35,6 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
 }
 
 .container {
@@ -100,6 +99,10 @@ body {
 header {
   margin-top: 1%;
   margin-bottom: 3%;
+}
+
+header > .row {
+  align-items: center;
 }
 
 header img[alt="logo"] {
@@ -197,6 +200,24 @@ header .user-side .btn-card {
   border: 1px solid #9DC2FF;
   border-radius: 4px;
   padding: 8px 12px;
+}
+
+#departments .btn-departments {
+  padding: 20px;
+}
+
+#departments .btn {
+  color: #2264D1;
+  font-weight: 700;
+  font-size: 15px;
+  border-radius: 4px;
+  padding: 10px 10%;
+  background-color: transparent;
+  border: 1px solid #9DC2FF;
+}
+
+#departments .btn img {
+  padding-right: 20%;
 }
 
 @media only screen and (min-width: 0) {
