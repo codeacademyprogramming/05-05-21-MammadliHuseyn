@@ -1,6 +1,9 @@
 header{
     margin-top:1%;
     margin-bottom:3%;
+    >.row{
+        align-items: center;
+    }
     img[alt="logo"]{
         width: 100%;
     }
