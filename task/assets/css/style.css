@@ -220,6 +220,18 @@ header .user-side .btn-card {
   padding-right: 20%;
 }
 
+#features {
+  padding-top: 5%;
+  text-align: center;
+}
+
+#features .feature-wrapper {
+  padding: 20%;
+  background-color: #EDEDF0;
+  border-radius: 5px;
+  height: auto;
+}
+
 @media only screen and (min-width: 0) {
   .col-xs-1 {
     width: calc(100%/12 * 1);
